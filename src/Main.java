@@ -5,7 +5,7 @@ public class Main {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setTitle("BallBrawl");
-        window.setResizable(false);
+        window.setResizable(true);
 
         GamePanel gamePanel = new GamePanel();
         window.add(gamePanel);
